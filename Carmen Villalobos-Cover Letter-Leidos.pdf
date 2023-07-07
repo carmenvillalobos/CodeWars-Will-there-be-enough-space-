@@ -17,7 +17,7 @@
 function enough(cap, on, wait) {
     let capMinusOn = cap - on
     let remainderOfPeople = wait - (capMinusOn)
-    if (capMinusOn - wait > 0){
+    if (capMinusOn - wait >= 0){
       return 0
     }
     else{
